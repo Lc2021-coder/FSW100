@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grid</title>
+    <link rel="stylesheet" href="cssgrid.css">
+    <style>
+	    .grid-container{
+		    display:grid;
+		    grid-template-columns: 25%,25%,25%,25%;
+
+	    }
+	    .grid-container div{
+		    font-size:30px;
+		    padding: 20px;
+	    }
+	    .box1{background-color: blue;}
+	    .box2{background-color: blueviolet;}
+	    .box3{background-color: lightblue;}
+	    .box4{background-color: lightskyblue;}
+	    .box5{background-color: lightseagreen;}
+	    .box6{background-color: palegreen;}
+	    .box7{background-color: greenyellow;}
+	    .box8{background-color: green;}
+	    .box9{background-color: yellow;}
+	    .box10{background-color: honeydew;}
+    </style>
+  </head>
+  <body>
+	<main class="grid-container">
+		<div id="box1" class="box blue"></div>
+		<div id="box2" class="box blueviolet"></div>
+		<div id="box3" class="box lightblue"></div> 
+		<div id="box4" class="box lightskyblue"></div> 
+		<div id="box5" class="box lightseagreen"></div>
+		<div id="box6" class="box palegreen"></div>
+		<div id="box7" class="box greenyellow"></div>
+		<div id="box8" class="box green"></div>
+		<div id="box9" class="box yellow"></div>
+		<div id="box10" class=box honeydew></div>
+	
+  </body>
+</html>

@@ -1,0 +1,38 @@
+.box{
+	height: 50px;
+	width: 100%;
+	margin-bottom: 1px;
+}
+
+.blue{
+	background-color: blue;
+	
+	
+}
+.blueviolet{
+	background-color:blueviolet ;
+}
+.lightblue{
+	background-color:lightblue ;
+}
+.lightskyblue{
+	background-color:lightskyblue ;
+}
+.lightseagreen{
+	background-color:lightseagreen ;
+}
+.palegreen{
+	background-color:palegreen ;
+}
+.greenyellow{
+	background-color:greenyellow ;
+}
+.green{
+	background-color: green;
+}
+.yellow{
+	background-color: yellow;
+}
+.honeydew{
+	background-color: honeydew;
+}
