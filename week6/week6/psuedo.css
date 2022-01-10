@@ -1,0 +1,39 @@
+*body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.box{
+	border:  1px solid black;
+height: 100px;
+width:100px;
+}
+
+
+
+.box1:hover{
+background-color: pink;
+border:  3px solid red;
+
+
+}
+.box2:hover{
+	background-color: red;
+	border: solid black;
+}
+.box3:hover{
+	background-color:purple;
+	border:plum;
+}
+.box4:hover{
+	background-color: rosybrown;
+	border: solid salmon;
+}
+.box5:hover{
+	background-color: tomato;
+	border: solid hotpink;
+}
+.box6:hover{
+	background-color: purple;
+	border: solid gold;
+}
