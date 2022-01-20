@@ -1,0 +1,444 @@
+/*styling for body*/
+body{
+	
+	font:15px/1.5 sans-serif, Arial;
+	padding: 0;
+	margin: 0;
+
+	
+
+}
+/*styling for container*/
+.container{
+	width:90%;
+	margin: 20px;
+	overflow: hidden;
+	
+	
+}
+/*This is the unordered list*/
+ul li{
+	margin: 0 ;
+	padding: 0px;
+	line-height: 20px;
+	
+	
+	
+}
+/*This is the button*/
+.button01{
+	height: 23px;
+	background:pink ;
+	border:2px solid black ;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: blue;
+}
+/*different parts of header section*/
+header{
+	background-color:black;
+	color: gold;
+	padding: top 30px;
+	min-height: 70px;
+	border-bottom: gold 3px solid;
+
+}
+header a{
+	color:rgb(226, 32, 129);
+	text-decoration: pink;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float:left;
+	display: block;
+	padding: 0 ;
+}
+header # website name h1{
+	margin: 0;
+
+}
+header nav{
+	float: right;
+	margin-top: 20px;
+}
+/*come back redo span tag add class highlight to html*/
+header .highlight, header .current a{
+	color:whitesmoke;
+	font-weight: bold;
+}
+header a:hover{
+	color: gold;
+}
+/*websiteshowcase get image to show up*/
+# websiteshowcase{
+	min-height: 400px;
+	background-image: url('/week7/clement-helardot-95YRwf6CNw8-unsplash.jpg'); 
+	
+	no repeat 0 -400px ;
+	text-align: center;
+	color: silver;
+}
+# websiteshowcase h1{
+	margin-top: 100px;
+	font-size: 54px;
+	margin-bottom: 10px;
+}
+# websiteshowcase p{
+	font-size: 20px;
+}
+/*This is the newsletter*/
+#Newsletter{
+	padding: 15px;
+	color: gold;
+	background: #35424a;
+}
+#Newsletter h1{
+	float: left;
+}
+#Newsletter form{
+	float: right;
+}
+#newsletter input[type="email"]{
+	padding: 3px;
+	height: 23px;
+	width: 250px;
+}
+/*This is the 3 boxes*/
+#box{
+	margin-top:30px;
+}
+#box .box{
+	float:left;
+	text-align: center;
+	width: %;
+	padding:80px;
+	align-content: center;
+	align-items: center;
+	shape-image-threshold: ;
+
+}
+#box .box img{
+	width: 100px;
+	align-items: center;
+	
+}
+/*This is the footer*/
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color:black;
+	background-color: silver;
+	text-align: center;
+}
+/*about html*/
+root{
+	--primary:;
+	--dark:var(--dark)
+	--light:;
+	--shadow:0 2px 5px pink()
+
+}
+html{
+	box-sizing: 10% ;
+	font-family: 'Courier New', Courier, monospace;
+	color: grey;
+}
+body{
+	background:#35424a;
+	margin:0  ;
+	line-height: 20%;
+}
+.btn{
+	background:black;
+	color:gold;
+	
+
+	padding:0.7rem 1.3rem;
+	text-decoration: none;
+	border:10px solid black;
+}
+img{
+	max-width: 100px;
+	
+}
+
+.wrapper{
+	display:grid;
+	grid-gap:0px;
+
+}
+/*navigation bar styling*/
+
+
+.nav ul li{
+	display: grid;
+	grid: gap 2px;
+	margin:0 auto;
+	padding: 0 ;
+	width: 20px;
+	border: #35424a;
+	height: 20px;
+	
+	/*grid-template-columns: repeat(4, 1fr);*/
+	
+}
+
+/*nav link styling*/
+
+.nav a{
+	background:black ;
+	display:block ;
+	text-decoration: none;
+	padding: 20px;
+	text-align: center;
+	color:pink ;
+	text-transform:uppercase;
+	font-size:20px;
+	box-shadow:deeppink;
+
+}
+/*Top container*/
+.top-container1{
+	display: grid;
+	grid-gap:40px;
+	grid-template-areas: 'show topofbox';
+}
+.show{
+	grid-area: show;
+	min-height: 400px;
+	background: url(/FSW100/week7/clement-helardot-95YRwf6CNw8-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	padding:3rem;
+	display: flex;
+	flex-direction:column;
+	align-items: start;
+	justify-content: center;
+	box-shadow: violet;
+	
+}
+.show h1{
+	font-size: 3rem;
+	margin-bottom: 20px;
+	color: gold;
+}
+.show p{
+	font-size: 1.4rem;
+	margin-top: 0;
+	color: #35424a;
+}
+.topofbox1{
+	background: gold;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	box-shadow: #35424a;
+	padding: 1.6 rem;
+}
+.topofbox2{
+	background: gold;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	box-shadow: #35424a;
+	padding: 1.6rem;
+}
+.topofbox3{
+	background: gold;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	box-shadow: #35424a;
+	padding: 1.6 rem;
+}
+
+
+
+
+.topofbox{
+	grid-area: topofbox;
+}
+.topofbox .price{
+	font: 2.6rem;
+}
+.box{
+	display: grid;
+	grid: gap 20px;
+	grid-template-columns: repeat(auot-fit,minmax(200px, ifr));
+}
+.box {
+	background: gold;
+	text-align: center;
+	padding: 1.6rem 2rem;
+	box-shadow:#35424a
+
+}
+/*footer*/
+
+
+footer{
+	 margin-top:2rem  ;
+	 background: silver;
+	 color: var(--dark);
+	 text-align: center;
+	 padding: 2rem;
+}
+/*media queries*/
+/*@media(max-width:1020px){
+	.top-container1{
+		grid-template-areas:
+		'show'
+		'topofbox1'
+		'topofbox2'
+		'topofbox3' ;
+		
+	}
+	.show h1{
+		font-size: 2rem;
+	}
+	nav ul{
+		grid-template-columns: 1fr;
+	}
+}*/
+@media(max-width:500px){
+	.top-container1{
+		background-color: blueviolet;
+		color: red;
+		'.show'
+		'.topofbox1'
+		'.topofbox2'
+		'.topofbox3'
+	}
+}
+/* services*/
+/*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}*/
+html3{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 15px;
+	line-height: 2.0;
+	color:gold ;
+	background: #35424a;
+}
+img{
+	max-width: 100%;
+
+}
+h1, h2{
+	margin-bottom: 16px;
+
+}
+.container3, container2, container{
+	max-width: 1100px;
+	margin: 1 auto;
+	padding:0 35px
+
+}
+.navbar{
+	background: pink;
+	color: whitesmoke;
+	height: 70px;
+}
+.navbar .logo1{
+	font-size: xx-large;
+	font-weight: bolder;
+
+}
+.navbar .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+.navbar a:hover{
+	color: blueviolet;
+	justify-content: space-between;
+}
+
+.navbar ul{
+	display: flex;
+
+}
+.navbar a{
+	color:deeppink;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+.navbar ul li{
+	margin-left: 21px;
+}
+
+.header{
+	min-height: 300px;
+
+
+}
+.header h1{
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 2.2;
+}
+.header img{
+	max-width: 450px;
+}
+.header .container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.box5 .container{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.boxz{
+	flex:2;
+	border-radius: 12px;
+	margin: 21px 10px;
+	box-shadow: 0 4px 6px rgb(226, 32, 129);
+	padding: 16px 21px;
+}
+
+footer{
+	background-color: black;
+
+	
+}
+footer p{
+	color: white;
+}
+/*@media(max-width:1024px){
+	
+	}
+	.header .container{
+		flex-direction: column;
+		padding-top: 21px;
+		text-align: center;
+		
+	}
+
+
+/*.box5 .container{
+	display: ;
+	text-align: ;
+	color: ;
+}*/
+@media(max-width:500px){
+	.top-container1{
+		background-color: blueviolet;
+		color: red;
+		'.show'
+		'.topofbox1'
+		'.topofbox2'
+		'.topofbox3'
+	}
+}
